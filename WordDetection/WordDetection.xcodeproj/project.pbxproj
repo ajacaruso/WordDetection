@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE0E17717C02EF9002C872E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE0E17617C02EF9002C872E /* UIKit.framework */; };
+		AAE0E17917C02EF9002C872E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE0E17817C02EF9002C872E /* Foundation.framework */; };
+		AAE0E17B17C02EF9002C872E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE0E17A17C02EF9002C872E /* CoreGraphics.framework */; };
+		AAE0E18117C02EF9002C872E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAE0E17F17C02EF9002C872E /* InfoPlist.strings */; };
+		AAE0E18317C02EF9002C872E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE0E18217C02EF9002C872E /* main.m */; };
+		AAE0E18717C02EF9002C872E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE0E18617C02EF9002C872E /* AppDelegate.m */; };
+		AAE0E18917C02EF9002C872E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE0E18817C02EF9002C872E /* Default.png */; };
+		AAE0E18B17C02EF9002C872E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE0E18A17C02EF9002C872E /* Default@2x.png */; };
+		AAE0E18D17C02EF9002C872E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE0E18C17C02EF9002C872E /* Default-568h@2x.png */; };
+		AAE0E19017C02EF9002C872E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE0E18F17C02EF9002C872E /* ViewController.m */; };
+		AAE0E19317C02EF9002C872E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE0E19117C02EF9002C872E /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAE0E17317C02EF9002C872E /* WordDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE0E17617C02EF9002C872E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAE0E17817C02EF9002C872E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAE0E17A17C02EF9002C872E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAE0E17E17C02EF9002C872E /* WordDetection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WordDetection-Info.plist"; sourceTree = "<group>"; };
+		AAE0E18017C02EF9002C872E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAE0E18217C02EF9002C872E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAE0E18417C02EF9002C872E /* WordDetection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordDetection-Prefix.pch"; sourceTree = "<group>"; };
+		AAE0E18517C02EF9002C872E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAE0E18617C02EF9002C872E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAE0E18817C02EF9002C872E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AAE0E18A17C02EF9002C872E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AAE0E18C17C02EF9002C872E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AAE0E18E17C02EF9002C872E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAE0E18F17C02EF9002C872E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAE0E19217C02EF9002C872E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE0E17017C02EF9002C872E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE0E17717C02EF9002C872E /* UIKit.framework in Frameworks */,
+				AAE0E17917C02EF9002C872E /* Foundation.framework in Frameworks */,
+				AAE0E17B17C02EF9002C872E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE0E16A17C02EF9002C872E = {
+			isa = PBXGroup;
+			children = (
+				AAE0E17C17C02EF9002C872E /* WordDetection */,
+				AAE0E17517C02EF9002C872E /* Frameworks */,
+				AAE0E17417C02EF9002C872E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE0E17417C02EF9002C872E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE0E17317C02EF9002C872E /* WordDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE0E17517C02EF9002C872E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAE0E17617C02EF9002C872E /* UIKit.framework */,
+				AAE0E17817C02EF9002C872E /* Foundation.framework */,
+				AAE0E17A17C02EF9002C872E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAE0E17C17C02EF9002C872E /* WordDetection */ = {
+			isa = PBXGroup;
+			children = (
+				AAE0E18517C02EF9002C872E /* AppDelegate.h */,
+				AAE0E18617C02EF9002C872E /* AppDelegate.m */,
+				AAE0E18E17C02EF9002C872E /* ViewController.h */,
+				AAE0E18F17C02EF9002C872E /* ViewController.m */,
+				AAE0E19117C02EF9002C872E /* ViewController.xib */,
+				AAE0E17D17C02EF9002C872E /* Supporting Files */,
+			);
+			path = WordDetection;
+			sourceTree = "<group>";
+		};
+		AAE0E17D17C02EF9002C872E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAE0E17E17C02EF9002C872E /* WordDetection-Info.plist */,
+				AAE0E17F17C02EF9002C872E /* InfoPlist.strings */,
+				AAE0E18217C02EF9002C872E /* main.m */,
+				AAE0E18417C02EF9002C872E /* WordDetection-Prefix.pch */,
+				AAE0E18817C02EF9002C872E /* Default.png */,
+				AAE0E18A17C02EF9002C872E /* Default@2x.png */,
+				AAE0E18C17C02EF9002C872E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE0E17217C02EF9002C872E /* WordDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE0E19617C02EF9002C872E /* Build configuration list for PBXNativeTarget "WordDetection" */;
+			buildPhases = (
+				AAE0E16F17C02EF9002C872E /* Sources */,
+				AAE0E17017C02EF9002C872E /* Frameworks */,
+				AAE0E17117C02EF9002C872E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordDetection;
+			productName = WordDetection;
+			productReference = AAE0E17317C02EF9002C872E /* WordDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE0E16B17C02EF9002C872E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Adam Jacaruso";
+			};
+			buildConfigurationList = AAE0E16E17C02EF9002C872E /* Build configuration list for PBXProject "WordDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAE0E16A17C02EF9002C872E;
+			productRefGroup = AAE0E17417C02EF9002C872E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE0E17217C02EF9002C872E /* WordDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE0E17117C02EF9002C872E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE0E18117C02EF9002C872E /* InfoPlist.strings in Resources */,
+				AAE0E18917C02EF9002C872E /* Default.png in Resources */,
+				AAE0E18B17C02EF9002C872E /* Default@2x.png in Resources */,
+				AAE0E18D17C02EF9002C872E /* Default-568h@2x.png in Resources */,
+				AAE0E19317C02EF9002C872E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE0E16F17C02EF9002C872E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE0E18317C02EF9002C872E /* main.m in Sources */,
+				AAE0E18717C02EF9002C872E /* AppDelegate.m in Sources */,
+				AAE0E19017C02EF9002C872E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAE0E17F17C02EF9002C872E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE0E18017C02EF9002C872E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AAE0E19117C02EF9002C872E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE0E19217C02EF9002C872E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE0E19417C02EF9002C872E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAE0E19517C02EF9002C872E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE0E19717C02EF9002C872E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordDetection/WordDetection-Prefix.pch";
+				INFOPLIST_FILE = "WordDetection/WordDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAE0E19817C02EF9002C872E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WordDetection/WordDetection-Prefix.pch";
+				INFOPLIST_FILE = "WordDetection/WordDetection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE0E16E17C02EF9002C872E /* Build configuration list for PBXProject "WordDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE0E19417C02EF9002C872E /* Debug */,
+				AAE0E19517C02EF9002C872E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE0E19617C02EF9002C872E /* Build configuration list for PBXNativeTarget "WordDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE0E19717C02EF9002C872E /* Debug */,
+				AAE0E19817C02EF9002C872E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE0E16B17C02EF9002C872E /* Project object */;
+}
